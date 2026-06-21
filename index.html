@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jarawa Ltd | Shipping & Trading</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+line-height:1.6;
+color:#333;
+}
+
+header{
+background:
+linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1600&q=80');
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero-content{
+max-width:800px;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero-content p{
+font-size:1.3rem;
+margin-bottom:25px;
+}
+
+.btn{
+display:inline-block;
+background:#d4a017;
+color:white;
+text-decoration:none;
+padding:12px 28px;
+border-radius:5px;
+font-weight:bold;
+}
+
+section{
+padding:70px 10%;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:40px;
+color:#0b3d5c;
+}
+
+.about{
+background:#f8f9fa;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.service-card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.service-card h3{
+color:#0b3d5c;
+margin-bottom:10px;
+}
+
+.contact{
+background:#0b3d5c;
+color:white;
+}
+
+.contact-container{
+max-width:700px;
+margin:auto;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input, textarea{
+padding:14px;
+border:none;
+border-radius:5px;
+font-size:1rem;
+}
+
+textarea{
+min-height:140px;
+}
+
+button{
+background:#d4a017;
+color:white;
+border:none;
+padding:14px;
+font-size:1rem;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+footer{
+background:#062638;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+.hero-content h1{
+font-size:2.8rem;
+}
+
+.hero-content p{
+font-size:1.1rem;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero-content">
+<h1>Jarawa Ltd</h1>
+<p>
+Global Shipping & Trading Solutions for Agricultural Commodities and Timber Products
+</p>
+<a href="#contact" class="btn">Contact Us</a>
+</div>
+</header>
+
+<section class="about">
+<h2 class="section-title">About Us</h2>
+<p style="max-width:900px;margin:auto;text-align:center;">
+Jarawa Ltd is an international shipping and trading company specializing
+in agricultural commodities and timber products. We connect producers,
+suppliers, and buyers through reliable logistics, efficient supply chain
+management, and trusted trading partnerships across global markets.
+</p>
+</section>
+
+<section>
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+<div class="service-card">
+<h3>Shipping & Logistics</h3>
+<p>
+Reliable ocean freight solutions and cargo management for international trade.
+</p>
+</div>
+
+<div class="service-card">
+<h3>Agricultural Commodities</h3>
+<p>
+Trading and sourcing of grains, oilseeds, pulses, and other agricultural products.
+</p>
+</div>
+
+<div class="service-card">
+<h3>Timber Trading</h3>
+<p>
+Supply and export of quality timber products to customers worldwide.
+</p>
+</div>
+
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="contact-container">
+
+<h2 class="section-title" style="color:white;">Contact Us</h2>
+
+<form action="https://formsubmit.co/ahmed@jarawa.co.uk" method="POST">
+
+<input type="hidden" name="_subject" value="New Inquiry from Jarawa Ltd Website">
+<input type="hidden" name="_captcha" value="false">
+
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+name="email"
+placeholder="Your Email"
+required>
+
+<input
+type="text"
+name="company"
+placeholder="Company Name">
+
+<textarea
+name="message"
+placeholder="Your Message"
+required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</div>
+</section>
+
+<footer>
+<p>&copy; 2026 Jarawa Ltd. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
